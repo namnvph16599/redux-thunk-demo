@@ -1,17 +1,16 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import Counter from "./features/counter/Counter";
-import Products from "./features/products/pages/index";
-import Add from "./features/products/pages/add";
 import { Route, Routes } from "react-router";
-
+import WebsiteLayout from "./pages/layouts/WebsiteLayout";
+import HomePage from "./pages/HomePage";
+import AdminLayout from "./pages/layouts/AdminLayout";
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="products" element={<Products />} />
-        <Route path="products/add" element={<Add />} />
+        <Route path="/" element={<AdminLayout />}>
+          <Route index element={<HomePage />} />
+        </Route>
       </Routes>
     </div>
   );
