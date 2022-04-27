@@ -17,7 +17,7 @@
     "react-redux": "^8.0.1",
     "react-router": "^6.3.0",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "redux-thunk": "^2.4.1",
     "web-vitals": "^2.1.4"
   },
@@ -47,5 +47,10 @@
   },
   "devDependencies": {
     "@testing-library/react": "^12.1.5"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
